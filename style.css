@@ -1,0 +1,230 @@
+/** {
+	border: 1px solid black;
+}*/
+
+.top-pic {
+	padding: 0 !important;	
+}
+
+.top-pic img{
+	position: absolute;	
+	max-width: 100%		
+}
+
+.this-nav a:visited {
+	color: white;
+	background-color: #3f403f !important;
+}
+
+.this-nav a:hover {
+	color: white;
+	background-color: black !important;
+}
+
+.in {
+	background-color: #3f403f;
+	transition: background-color .4s;
+}
+
+nav .glyphicon {
+	color: white;
+}
+
+.navbar-brand {
+	max-height: 75px;
+	padding: 0;
+	opacity: 0;
+}
+
+.scroll-nav .navbar-brand {
+	opacity: 1;
+	-webkit-transition: opacity 2s;
+	-moz-transition: opacity 2s;
+	-ms-transition: opacity 2s;
+	-o-transition: opacity 2s;
+	transition: opacity 2s;
+}
+nav a {
+	color: white;
+	font-family: "spinnaker";	
+}
+
+.scroll-nav {
+	border-bottom: 1px solid black !important;
+	background-color: #3f403f;
+	-webkit-transition: background-color 2s;
+	-moz-transition: background-color 2s;
+	-ms-transition: background-color 2s;
+	-o-transition: background-color 2s;
+	transition: background-color 2s;	
+}
+
+.lynneFo {
+	position: relative;
+}
+
+header h1 {
+	font-family: 'sacramento';
+	color: white;
+	font-size: 100px;	
+	text-align: center;	
+	margin: 0;	
+}
+
+header p {
+	font-family: "spinnaker";
+	color: white;
+	font-size: 25px;	
+	text-align: center;
+	margin: 0;	
+}
+
+.logo {
+	position: relative;
+	z-index: 1;	
+	text-align: center;	
+}
+
+.logo img {
+	max-width: 150px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+.social {	
+	position: relative;
+	text-align: right;
+	margin-right: 20px;
+}
+
+.social a {
+	position: relative;
+	z-index: 2;
+}
+
+.social img {
+	position: relative;
+	max-height: 50px;	
+}
+
+.social img:hover {
+	top: -7px;
+}
+
+.social-jump {
+	top: -10px;	
+}
+
+.purple {
+	position: relative;
+	background-color: #f6f1e9;
+}
+
+.projects-container div {
+	text-align: center;
+	top: -80px;	
+}
+
+.projects-container h3 {
+	font-family: "spinnaker";
+	margin-bottom: 15px;
+}
+
+.project-img {
+	width: 100%;
+	max-width: 250px;
+	border-radius: 15px;	
+}
+
+.projects-container p {
+	font-size: 16px;
+	font-family: arial;
+	margin-top: 15px;
+	text-align: justify;
+	max-width: 290px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*.about-div {
+	position: relative;
+}*/
+/*.about-container {
+	position: relative;
+}*/
+.about-div img {
+	max-width: 100%;
+	margin-top: -30px;
+}
+.about-container h1 {
+	font-family: 'sacramento';
+	font-size: 50px;
+	text-align: center;
+	padding-top: 20px;
+}
+.about-container p {
+	font-family: "spinnaker", arial;
+	text-align: center;
+	font-size: 16px;	
+	padding: 25px;
+}
+
+@media(max-width: 800px) {
+
+	header h1 {
+		font-size: 65px;
+	}
+	.social img {
+		max-height: 40px;
+	}
+	.logo img{
+		max-width: 80px;	
+	}
+	.projects-container div {
+		top: -50px;	
+	}
+}
+
+@media(max-width: 520px) {
+	header h1 {
+		font-size: 60px;
+	}
+	header p {
+		font-size: 20px;
+	}
+	.social img {
+		max-height: 40px;
+	}
+	.logo img {
+		max-width: 80px;	
+	}
+}
+
+@media(max-width: 350px) {
+	header h1 {
+		font-size: 40px;
+	}
+	header p {
+		font-size: 15px;
+	}
+	.social {
+		margin-right: 5px;
+	}
+	.social img {
+		max-height: 22px;
+	}
+	.social img:hover {
+	top: -4px;
+}
+	.logo img {
+		max-width: 65px;	
+	}
+	.projects-container h3 {
+		font-size: 20px;
+		margin-bottom: 8px;	
+	}
+	.projects-container p {
+		font-size: 14px;
+		margin-top: 8px;	
+	}
+}
+

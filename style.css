@@ -79,6 +79,10 @@ header p {
 	margin: 0;	
 }
 
+.tagline {
+	font-size: 15px;
+}
+
 .logo {
 	position: relative;
 	z-index: 1;	

@@ -80,7 +80,8 @@ header p {
 }
 
 .tagline {
-	font-size: 50px;
+	font-size: 30px;
+	position: relative;
 }
 
 .logo {

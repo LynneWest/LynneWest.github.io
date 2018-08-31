@@ -40,7 +40,7 @@ $(window).load(function()
 
 	function namePosition() //set position of LynneFo in relation to header image
 	{
-		return getPicH()*0.35;
+		return getPicH()*0.3;
 	}	
 
 	function socialPosition() //set position of social icons 10px above bottom of header image

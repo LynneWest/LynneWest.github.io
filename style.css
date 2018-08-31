@@ -83,6 +83,10 @@ header p {
 	font-size: 30px;
 }
 
+.degree {
+	font-size: 20px;
+}
+
 .logo {
 	position: relative;
 	z-index: 1;	

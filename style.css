@@ -144,6 +144,10 @@ header p {
 	border-radius: 15px;	
 }
 
+.project-img:hover {
+	transform: scale(1.1);
+}
+
 .projects-container p {
 	font-size: 16px;
 	font-family: arial;

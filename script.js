@@ -62,12 +62,6 @@ $(window).load(function()
 		return getPicH()-nameH-pH-getSocialH()-1;
 	}
 
-	function grindPosition()
-	{
-		var aboutP = $(".about-div").offset();
-		return aboutP.top;
-	}
-
 	function doTheWave() //make social icons do the wave
 	{
 		if(hiddenP > 0 && hiddenP < 10)
@@ -99,10 +93,9 @@ $(window).load(function()
 			{
 				$("#grind").removeClass("hidden");
 				$("#grind2").addClass("hidden");
-				sparking = false;
+				sparking = false;				
 			}, 2000)
-		}
-
+		}		
 	}
 
 	$(document).scroll(function() 
@@ -120,7 +113,7 @@ $(window).load(function()
 		}
 
 		doTheWave();
-		sparks();		
+		sparks();			
 	});
 
 	$(".lynneFo").css("top", namePosition());

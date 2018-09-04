@@ -87,29 +87,6 @@ $(window).load(function()
 		}		
 	}
 
-/* 	function sparks() //play sparks gif when page is scrolled close to "about" image
-	{
-		var fin = true;
-		var grindP = grindPosition();
-		//console.log("from "+(grindP-250)+" - "+(grindP-230)+" hiddenP: "+hiddenP);
-		if(hiddenP>grindP-250 && hiddenP<grindP-230 && fin === true)
-		{			
-			fin = false;
-			$("#grind").toggleClass("hidden");
-			$("#grind2").toggleClass("hidden");
-			
-			setTimeout(function()
-			{
-				$("#grind").toggleClass("hidden");
-				$("#grind2").toggleClass("hidden");
-				setTimeout(function()
-				{
-					fin = true;
-				}, 100);				
-			},1000);
-		}
-	} */
-	
 	function sparks() //play sparks gif for 2 seconds
 	{
 		if(sparking === false) 

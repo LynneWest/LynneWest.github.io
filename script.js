@@ -36,7 +36,7 @@ $(window).load(function()
 		else
 		{
 			$(".top-pic").html("<img src = 'images/LynneCar.jpg'/>");			
-		}				
+		} 				
 	}	
 
 	function namePosition() //set position of LynneFo in relation to header image
@@ -81,9 +81,9 @@ $(window).load(function()
 		}		
 	}
 
-	function sparks() //play sparks gif for 2 seconds
+	function sparks() //display sparks gif for 2 seconds
 	{
-		if(sparking === false) 
+		if(sparking == false) 
 		{
 			$("#grind").addClass("hidden");
 			$("#grind2").removeClass("hidden");

@@ -18,7 +18,7 @@ $(window).load(function()
 		}
 		else
 		{			
-			return (5*getbodyW())/12;
+			return (1*getbodyW())/4;
 		}
 	}
 	

@@ -86,11 +86,11 @@ header p {
 	font-size: 30px;
 }
 
-.degree {
+/* .degree {
 	font-size: 20px;
-}
+} */
 
-.logo {
+/* .logo {
 	position: relative;
 	z-index: 1;	
 	text-align: center;	
@@ -100,7 +100,7 @@ header p {
 	max-width: 100px;
 	margin-right: auto;
 	margin-left: auto;	
-}
+} */
 
 .social {	
 	position: relative;
@@ -128,7 +128,7 @@ header p {
 
 .purple {
 	/* position: relative; */
-	background-color: #f2e6e3;
+	background-color: #f1e9e2;
 }
 
 /* .skills-div {
@@ -137,7 +137,7 @@ header p {
 
 .projects-container div {
 	text-align: center;
-	top: -80px;	
+	/* top: -80px;	 */
 }
 
 .projects-container h3 {

@@ -1,3 +1,11 @@
+:root {
+	--fontA: 'Sarina', cursive; /* font-family: var(--fontA); */
+	--fontB: 'spinnaker', arial; /* font-family: var(--fontB); */
+	--colorA:  #f1e9e2; /* background-color: var(--colorA); */
+	--colorB: #3f403f;  /* background-color: var(--colorB); */
+}
+
+
 /* * {
 	border: 10px solid black;
 } */
@@ -13,7 +21,7 @@
 
 .this-nav a:visited {
 	color: white;
-	background-color: #3f403f !important;
+	background-color: var(--colorB) !important;
 }
 
 .this-nav a:hover {
@@ -22,7 +30,7 @@
 }
 
 .in {
-	background-color: #3f403f;
+	background-color: var(--colorB);
 	transition: background-color .4s;
 }
 
@@ -46,12 +54,12 @@ nav .glyphicon {
 }
 nav a {
 	color: white;
-	font-family: "spinnaker";	
+	font-family: var(--fontB)	
 }
 
 .scroll-nav {
 	border-bottom: 1px solid black !important;
-	background-color: #3f403f;
+	background-color: var(--colorB);
 	-webkit-transition: background-color 2s;
 	-moz-transition: background-color 2s;
 	-ms-transition: background-color 2s;
@@ -69,14 +77,14 @@ header {
 }
 
 header h1 {
-	font-family: 'Sarina', cursive;
+	font-family: var(--fontA);
 	font-size: 70px;	
 	/* text-align: center;	 */
 	margin: 0;	
 }
 
 header p {
-	font-family: "spinnaker";
+	font-family: var(--fontB);
 	font-size: 20px;	
 	/* text-align: center; */
 	margin: 0;	
@@ -121,19 +129,19 @@ header p {
 
 .purple {
 	position: relative;
-	background-color: #f1e9e2;
+	background-color: var(--colorA);
 }
 
-/* .skills-div {
-	position: relative;
-} */
+.skills-div h2{
+	font-family: var(--fontA)
+}
 
 .projects-container div {
 	text-align: center;		
 }
 
 .projects-container h3 {
-	font-family: "spinnaker";
+	font-family: var(--fontB);
 	margin-bottom: 15px;
 	color: black;
 }
@@ -174,14 +182,14 @@ header p {
 	text-decoration: none;
 }
 .about-container h1 {
-	font-family: 'Sarina', cursive;
+	font-family: var(--fontA);
 	font-size: 50px;
 	text-align: center;
 	padding-top: 20px;
 	color: black;
 }
 .about-container p {
-	font-family: "spinnaker", arial;
+	font-family: var(--fontB);
 	font-size: 16px;
 	line-height: 2;	
 	padding: 10px;

@@ -65,7 +65,7 @@ nav a {
 }
 
 header {
-	margin-left:50px;
+	margin-left:50px;	
 }
 
 header h1 {
@@ -90,17 +90,10 @@ header p {
 	font-size: 20px;
 } */
 
-/* .logo {
+.logo {
 	position: relative;
-	z-index: 1;	
-	text-align: center;	
+	/* z-index: 1;	 */
 }
-
-.logo img {
-	max-width: 100px;
-	margin-right: auto;
-	margin-left: auto;	
-} */
 
 .social {	
 	position: relative;
@@ -127,7 +120,7 @@ header p {
 }
 
 .purple {
-	/* position: relative; */
+	position: relative;
 	background-color: #f1e9e2;
 }
 
@@ -136,8 +129,7 @@ header p {
 } */
 
 .projects-container div {
-	text-align: center;
-	/* top: -80px;	 */
+	text-align: center;		
 }
 
 .projects-container h3 {
@@ -175,8 +167,7 @@ header p {
 }
 
 .about-div img {
-	max-width: 100%;
-	margin-top: -30px;
+	max-width: 100%;	
 }
 
 .about-container a:hover {
@@ -211,10 +202,7 @@ header p {
 	}
 	.logo img{
 		max-width: 80px;	
-	}
-	.projects-container div {
-		top: -50px;	
-	}
+	}	
 }
 
 @media(max-width: 520px) {
@@ -248,9 +236,6 @@ header p {
 	.social img:hover {
 	top: -4px;
 }
-	.logo img {
-		max-width: 65px;	
-	}
 	.projects-container h3 {
 		font-size: 20px;
 		margin-bottom: 8px;	

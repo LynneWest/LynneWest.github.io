@@ -1,7 +1,7 @@
 $(window).load(function()
 {	
-	/* var nameH;
-	var pH; */
+	var nameH;
+	var pH;
 	var hiddenP;
 	var sparking = false;
 	
@@ -22,10 +22,10 @@ $(window).load(function()
 		}
 	}
 	
-/* 	function getSocialH() //return height of social link images
+	function getSocialH() //return height of social link images
 	{
 		return $(".social img").height();
-	} */
+	}
 
 	function topPicSize() //set header image ratio as 12:5 or 6:5 based on body width
 	{
@@ -39,28 +39,28 @@ $(window).load(function()
 		} 				
 	}	
 
-/* 	function namePosition() //set position of LynneFo in relation to header image height
+	function namePosition() //set position of LynneFo in relation to header image height
 	{
 		return getPicH()*0.4;
-	} */	
+	}	
 
-	/* function socialPosition() //set position of social icons 10px above bottom of header image
+	function socialPosition() //set position of social icons 10px above bottom of header image
 	{
 		return getPicH()-$(".social").height()-10;
-	} */
+	}
 
-/* 	function logoPosition() //position logo with exactly half of the logo image above the bottom of header image
+	function logoPosition() //position logo with exactly half of the logo image above the bottom of header image
 	{
 		var logoH = $(".logo img").height();
 		nameH = $(".name h1").height();
 		pH = $("header p").height();
 		return getPicH()-nameH-pH-getSocialH()-(logoH/2);		
-	} */
+	}
 
-/* 	function purplePosition() //position purple div directly below header image
+	function purplePosition() //position purple div directly below header image
 	{
 		return getPicH()-nameH-pH-getSocialH()-1;
-	} */
+	}
 
 	function doTheWave() //make social icons do the wave
 	{
@@ -116,18 +116,18 @@ $(window).load(function()
 		sparks();			
 	});
 
-	//$(".lynneFo").css("top", namePosition());
-	//$(".social").css("top", socialPosition());
-	//$(".logo").css("top", logoPosition());
-	//$(".purple").css("top", purplePosition());
+	$(".lynneFo").css("top", namePosition());
+	$(".social").css("top", socialPosition());
+	$(".logo").css("top", logoPosition());
+	$(".purple").css("top", purplePosition());
 	topPicSize();
 
 	$(window).resize(function() //position elements dynamically on resize
 	{
-		//$(".lynneFo").css("top", namePosition());
-		//$(".social").css("top", socialPosition());
-		//$(".logo").css("top", logoPosition());
-		//$(".purple").css("top", purplePosition());
+		$(".lynneFo").css("top", namePosition());
+		$(".social").css("top", socialPosition());
+		$(".logo").css("top", logoPosition());
+		$(".purple").css("top", purplePosition());
 		topPicSize();		
 	});
 });

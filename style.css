@@ -64,17 +64,21 @@ nav a {
 	color:black;
 }
 
+header {
+	margin-left:50px;
+}
+
 header h1 {
 	font-family: 'Sarina', cursive;
 	font-size: 70px;	
-	text-align: center;	
+	/* text-align: center;	 */
 	margin: 0;	
 }
 
 header p {
 	font-family: "spinnaker";
 	font-size: 20px;	
-	text-align: center;
+	/* text-align: center; */
 	margin: 0;	
 }
 
@@ -123,9 +127,13 @@ header p {
 }
 
 .purple {
-	position: relative;
+	/* position: relative; */
 	background-color: #f2e6e3;
 }
+
+/* .skills-div {
+	position: relative;
+} */
 
 .projects-container div {
 	text-align: center;

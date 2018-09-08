@@ -1,6 +1,6 @@
-/** {
-	border: 1px solid black;
-}*/
+/* * {
+	border: 10px solid black;
+} */
 
 .top-pic {
 	padding: 0 !important;	
@@ -124,7 +124,7 @@ header p {
 
 .purple {
 	position: relative;
-	background-color: #f6f1e9;
+	background-color: #f2e6e3;
 }
 
 .projects-container div {
@@ -175,7 +175,7 @@ header p {
 	text-decoration: none;
 }
 .about-container h1 {
-	font-family: 'sacramento';
+	font-family: 'Sarina', cursive;
 	font-size: 50px;
 	text-align: center;
 	padding-top: 20px;

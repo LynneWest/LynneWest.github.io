@@ -39,9 +39,9 @@ $(window).load(function()
 		} 				
 	}	
 
-	function namePosition() //set position of LynneFo in relation to header image
+	function namePosition() //set position of LynneFo in relation to header image height
 	{
-		return getPicH()*0.3;
+		return getPicH()*0.2;
 	}	
 
 	function socialPosition() //set position of social icons 10px above bottom of header image

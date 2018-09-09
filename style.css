@@ -130,7 +130,7 @@ header p {
 
 .purple h1 {
 	font-family: var(--fontB);
-	font-size: 50px;
+	font-size: 30px;
 	color: black;
 }
 
@@ -141,7 +141,7 @@ header p {
 }
 
 .white-space {
-	border-top: 20px solid white;
+	border-top: 25px solid white;
 }
 
 .projects-container div {

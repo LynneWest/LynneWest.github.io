@@ -134,10 +134,16 @@ header p {
 	background-color: var(--colorA);
 }
 
-.skills-div h1{
+.purple h1 {
 	font-family: var(--fontB);
 	font-size: 50px;
 	color: black;
+}
+
+.purple p {
+	font-family: var(--fontB);
+	font-size: 16px;
+	line-height: 2;	
 }
 
 .projects-container div {
@@ -165,8 +171,6 @@ header p {
 }
 
 .projects-container p {
-	font-size: 16px;
-	font-family: arial;
 	margin-top: 15px;
 	text-align: justify;
 	max-width: 290px;
@@ -185,19 +189,9 @@ header p {
 .about-container a:hover {
 	text-decoration: none;
 }
-.about-container h1 {
-	font-family: var(--fontB);
-	font-size: 50px;
-	/* text-align: center; */
-	padding-top: 20px;
-	color: black;
-}
+
 .about-container p {
-	font-family: var(--fontB);
-	font-size: 16px;
-	line-height: 2;	
-	padding: 10px;
-	margin-bottom: 0;
+	padding: 10px;	
 }
 
 .about-email {

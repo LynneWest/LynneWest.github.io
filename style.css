@@ -211,7 +211,7 @@ header p {
 
 @media(max-width: 520px) {
 	header h1 {
-		font-size: 60px;
+		font-size: 40px;
 	}
 	header p {
 		font-size: 20px;
@@ -225,11 +225,17 @@ header p {
 }
 
 @media(max-width: 350px) {
+	header {
+		margin-left: 10px;
+	}
 	header h1 {
-		font-size: 40px;
+		font-size: 25px;
+	}
+	.tagline {
+		font-size: 12px;
 	}
 	header p {
-		font-size: 15px;
+		font-size: 10px;
 	}
 	.social {
 		margin-right: 5px;
@@ -239,7 +245,7 @@ header p {
 	}
 	.social img:hover {
 	top: -4px;
-}
+	}
 	.projects-container h3 {
 		font-size: 20px;
 		margin-bottom: 8px;	

@@ -1,8 +1,10 @@
 :root {
 	--fontA: 'Sarina', cursive; /* font-family: var(--fontA); */
 	--fontB: 'spinnaker', arial; /* font-family: var(--fontB); */
-	--colorA:  #f1e9e2; /* background-color: var(--colorA); */
-	--colorB: #3f403f;  /* background-color: var(--colorB); */
+	--colorA:  #e1dad4; /* background-color: var(--colorA); */
+	--colorB: #6e7275;  /* background-color: var(--colorB); */
+	--colorC: #bfbfc1;  /* background-color: var(--colorC); */
+	--colorD: #e7e5e6;  /* background-color: var(--colorD); */
 }
 
 
@@ -132,8 +134,10 @@ header p {
 	background-color: var(--colorA);
 }
 
-.skills-div h2{
-	font-family: var(--fontA)
+.skills-div h1{
+	font-family: var(--fontB);
+	font-size: 50px;
+	color: black;
 }
 
 .projects-container div {
@@ -182,9 +186,9 @@ header p {
 	text-decoration: none;
 }
 .about-container h1 {
-	font-family: var(--fontA);
+	font-family: var(--fontB);
 	font-size: 50px;
-	text-align: center;
+	/* text-align: center; */
 	padding-top: 20px;
 	color: black;
 }

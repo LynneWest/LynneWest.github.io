@@ -14,7 +14,7 @@ $(window).load(function()
 	{
 		if(getbodyW() < 650)
 		{			 
-			return (5*getbodyW())/6;
+			return (1*getbodyW())/2;
 		}
 		else
 		{			
@@ -94,7 +94,7 @@ $(window).load(function()
 				$("#grind").removeClass("hidden");
 				$("#grind2").addClass("hidden");
 				sparking = false;				
-			}, 2000)
+			}, 1800)
 		}		
 	}
 

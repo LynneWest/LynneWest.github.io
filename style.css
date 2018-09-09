@@ -7,7 +7,6 @@
 	--colorD: #e7e5e6;  /* background-color: var(--colorD); */
 }
 
-
 /* * {
 	border: 10px solid black;
 } */
@@ -21,23 +20,23 @@
 	max-width: 100%		
 }
 
-.this-nav a:visited {
-	color: white;
-	background-color: var(--colorB) !important;
+.this-nav a{
+	color:black;
+	font-family: var(--fontB);
+	text-shadow: none !important;
 }
 
-.this-nav a:hover {
-	color: white;
-	background-color: black !important;
+.this-nav a:visited {	
+	background-color: var(--colorC) !important;
+}
+
+.this-nav a:hover {	
+	background-color: var(--colorA) !important;
 }
 
 .in {
-	background-color: var(--colorB);
+	background-color: var(--colorC);
 	transition: background-color .4s;
-}
-
-nav .glyphicon {
-	color: white;
 }
 
 .navbar-brand {
@@ -54,14 +53,9 @@ nav .glyphicon {
 	-o-transition: opacity 2s;
 	transition: opacity 2s;
 }
-nav a {
-	color: white;
-	font-family: var(--fontB)	
-}
-
 .scroll-nav {
-	border-bottom: 1px solid black !important;
-	background-color: var(--colorB);
+	border-bottom: none; 
+	background-color: var(--colorC);
 	-webkit-transition: background-color 2s;
 	-moz-transition: background-color 2s;
 	-ms-transition: background-color 2s;

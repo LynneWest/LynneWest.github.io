@@ -141,6 +141,7 @@ header p {
 
 .white-space {
 	border-top: 25px solid white;
+	margin-bottom: 25px;
 }
 
 .projects-container div {

@@ -4,6 +4,7 @@ $(window).load(function()
 	var pH;
 	var hiddenP;
 	var sparking = false;
+	var wave = false;
 	
 	function getbodyW() //return current body width
 	{
@@ -64,8 +65,9 @@ $(window).load(function()
 
 	function doTheWave() //make social icons do the wave
 	{
-		if(hiddenP > 0 && hiddenP < 10)
+		if(hiddenP > 0 && hiddenP < 150 && wave === false)
 		{
+			wave = true;
 			$("#1").addClass("social-jump").delay(300).queue(function() 
 			{
 				$("#1").removeClass("social-jump").dequeue();
@@ -74,16 +76,18 @@ $(window).load(function()
 					$("#2").removeClass("social-jump").dequeue();
 					$("#3").addClass("social-jump").delay(300).queue(function() 
 					{
-						$("#3").removeClass("social-jump").dequeue();					
+						$("#3").removeClass("social-jump").dequeue();
+						wave = false;					
 					});
 				});
 			});
-		}		
+		}
+		console.log("hiddenP: "+hiddenP)		
 	}
 
 	function sparks() //display sparks gif for 2 seconds
 	{
-		if(sparking == false) 
+		if(sparking === false) 
 		{
 			$("#grind").addClass("hidden");
 			$("#grind2").removeClass("hidden");

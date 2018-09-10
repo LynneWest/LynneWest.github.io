@@ -98,7 +98,7 @@ $(window).load(function()
 				$("#grind").removeClass("hidden");
 				$("#grind2").addClass("hidden");
 				sparking = false;				
-			}, 1800)
+			}, 1900)
 		}		
 	}
 

@@ -196,32 +196,55 @@ header p {
 	text-align: center;	
 }
 
-@media(max-width: 800px) {
-
+@media(max-width: 1030px) {
+	.lynneFo {
+		margin-top: -50px;
+	}
 	header h1 {
-		font-size: 65px;
+		font-size: 55px;
+	}
+	.tagline {
+		font-size: 22px;
+	}
+	header p {
+		font-size: 16px;
 	}
 	.social img {
 		max-height: 40px;
-	}
-	.logo img{
-		max-width: 80px;	
 	}	
 }
 
-@media(max-width: 520px) {
+@media(max-width: 800px) {
+	header {
+		margin-left: 5px;
+	}	
 	header h1 {
 		font-size: 40px;
 	}
+	.tagline {
+		font-size: 18px;
+	}
 	header p {
-		font-size: 20px;
+		font-size: 13px;
 	}
 	.social img {
-		max-height: 40px;
+		max-height: 30px;
+	}		
+}
+
+@media(max-width: 520px) {	
+	header h1 {
+		font-size: 35px;
 	}
-	.logo img {
-		max-width: 80px;	
+	.tagline {
+		font-size: 15px;
 	}
+	header p {
+		font-size: 13px;
+	}
+	.social img {
+		max-height: 30px;
+	}	
 }
 
 @media(max-width: 350px) {

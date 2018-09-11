@@ -109,7 +109,7 @@ $(window).load(function()
 
 	$(document).scroll(function() 
 	{
-		hiddenP = $(document).scrollTop();
+		hiddenP = $(document).scrollTop()+50;
 		var navH = $(".navbar").height();
 		
 		if(getPicH()-hiddenP <= navH) //darken navbar when it gets past header image

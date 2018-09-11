@@ -98,9 +98,14 @@ $(window).load(function()
 				$("#grind").removeClass("hidden");
 				$("#grind2").addClass("hidden");
 				sparking = false;				
-			}, 1900)
+			}, 1800)
 		}		
 	}
+
+	$("#about-button").click(function()
+	{
+		sparks()
+	});
 
 	$(document).scroll(function() 
 	{

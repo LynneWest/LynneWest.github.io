@@ -124,7 +124,7 @@ header p {
 
 .purple {
 	position: relative;
-	background-color: var(--colorA);
+	background-color: var(--colorA);	
 }
 
 .purple h1 {
@@ -140,8 +140,12 @@ header p {
 }
 
 .white-space {
-	border-top: 25px solid white;
-	margin-bottom: 25px;
+	border-top: 40px solid white;	
+}
+
+.skills-container {
+	border-left: 30px solid var(--colorB);
+	margin-left: 0;
 }
 
 .skills-container div {

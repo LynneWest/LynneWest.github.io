@@ -1,7 +1,7 @@
 :root {
 	--fontA: 'Sarina', cursive; /* font-family: var(--fontA); */
 	--fontB: 'spinnaker', arial; /* font-family: var(--fontB); */
-	--colorA:  #e1dad4; /* background-color: var(--colorA); #f6f1e9 */
+	--colorA:  #e8ded4; /* background-color: var(--colorA); #f6f1e9 */
 	--colorB: #6e7275;  /* background-color: var(--colorB); */
 	--colorC: #bfbfc1;  /* background-color: var(--colorC); */
 	--colorD: #e7e5e6;  /* background-color: var(--colorD); */

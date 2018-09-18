@@ -124,7 +124,9 @@ header p {
 
 .purple {
 	position: relative;
-	background-color: var(--colorA);	
+	background-color: var(--colorA);
+	border-left: 25px solid white;
+	border-right: 25px solid white;	
 }
 
 .purple h1 {
@@ -145,7 +147,7 @@ header p {
 
 .skills-container {
 	border-left: 30px solid var(--colorB);
-	margin-left: 0;
+	margin-left: 0;	
 }
 
 .skills-container div {

@@ -144,6 +144,11 @@ header p {
 	margin-bottom: 25px;
 }
 
+.skills-container div {
+	background-color: var(--colorC);
+	font-family: var(--fontB);
+}
+
 .projects-container div {
 	text-align: center;		
 }

@@ -149,6 +149,10 @@ header p {
 	font-family: var(--fontB);
 }
 
+.skills-container h4 {
+	font-weight: bold;
+}
+
 .projects-container div {
 	text-align: center;		
 }

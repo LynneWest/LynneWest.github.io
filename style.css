@@ -160,13 +160,13 @@ header p {
 }
 
 .projects-container div {
-	text-align: center;		
+	text-align: center;	
 }
 
 .projects-container h3 {
 	font-family: var(--fontB);
-	margin-bottom: 15px;
-	color: black;
+	margin-bottom: 10px;
+	color: black;	
 }
 
 .projects-container a:hover {
@@ -175,8 +175,9 @@ header p {
 
 .project-img {
 	width: 100%;
-	max-width: 250px;
-	border-radius: 15px;	
+	max-width: 220px;
+	margin-top: 15px;
+	/* border-radius: 15px;	 */
 }
 
 .project-img:hover {
@@ -184,11 +185,12 @@ header p {
 }
 
 .projects-container p {
-	margin-top: 15px;
-	text-align: justify;
-	max-width: 290px;
+	margin-top: 10px;
+	text-align: left;
+	/* max-width: 310px; */
 	margin-right: auto;
 	margin-left: auto;
+	border-top: 2px solid black;
 }
 
 .about-div {

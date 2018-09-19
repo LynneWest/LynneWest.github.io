@@ -159,6 +159,10 @@ header p {
 	font-weight: bold;
 }
 
+.projects-container h1 {
+	border-top: 2px solid black;
+}
+
 .projects-container div {
 	text-align: center;	
 }
@@ -190,7 +194,12 @@ header p {
 	/* max-width: 310px; */
 	margin-right: auto;
 	margin-left: auto;
+	border-top: 1px solid black;
+}
+
+.bottom-border {
 	border-top: 2px solid black;
+	margin-bottom: 20px;
 }
 
 .about-div {

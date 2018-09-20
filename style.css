@@ -1,9 +1,9 @@
 :root {
 	--fontA: 'Sarina', cursive; /* font-family: var(--fontA); */
 	--fontB: 'spinnaker', arial; /* font-family: var(--fontB); */
-	--colorA:  #e8ded4; /* background-color: var(--colorA); #f6f1e9 */
-	--colorB: #6e7275;  /* background-color: var(--colorB); */
-	--colorC: #bfbfc1;  /* background-color: var(--colorC); */
+	--colorA: rgb(232,222,212); /* background-color: var(--colorA); #f6f1e9 */
+	--colorB: rgb(110,114,117);  /* background-color: var(--colorB); */
+	--colorC: rgb(191,191,193);  /* background-color: var(--colorC); */
 	--colorD: #e7e5e6;  /* background-color: var(--colorD); */
 }
 
@@ -124,9 +124,9 @@ header p {
 
 .purple {
 	position: relative;
-	background-color: var(--colorA);
-	border-left: 25px solid white;
-	border-right: 25px solid white;	
+	background-color: white;
+	/* border-left: 25px solid white;
+	border-right: 25px solid white;	 */
 }
 
 .purple h1 {
@@ -147,7 +147,9 @@ header p {
 
 .skills-container {
 	border-left: 30px solid var(--colorB);
-	margin-left: 0;	
+	background-color: var(--colorA);
+	margin-bottom: -15px;
+	/* margin-left: 0;	 */
 }
 
 .skills-container div {

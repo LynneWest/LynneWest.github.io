@@ -125,8 +125,6 @@ header p {
 .purple {
 	position: relative;
 	background-color: white;
-	/* border-left: 25px solid white;
-	border-right: 25px solid white;	 */
 }
 
 .purple h1 {
@@ -147,13 +145,14 @@ header p {
 
 .skills-container {
 	border-left: 30px solid var(--colorB);
-	background-color: var(--colorA);
-	margin-bottom: -15px;
-	/* margin-left: 0;	 */
+	background-color: var(--colorA);	
 }
 
-.skills-container div {
+.skills-container .row {
 	background-color: var(--colorC);
+}
+
+.skills-container div {	
 	font-family: var(--fontB);
 }
 
@@ -161,12 +160,15 @@ header p {
 	font-weight: bold;
 }
 
+.projects-container {
+	background-color: var(--colorD);
+}
 .projects-container h1 {
 	border-top: 2px solid black;
 }
 
 .projects-container div {
-	text-align: center;	
+	text-align: center;		
 }
 
 .projects-container h3 {
@@ -204,12 +206,18 @@ header p {
 	margin-bottom: 20px;
 }
 
-.about-div {
-	padding-bottom: 20px;
-}
-
 .about-div img {
 	max-width: 100%;	
+}
+
+.about-container {
+	background-color: var(--colorA);
+	padding: 0;
+}
+
+.about-container div {
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .about-container a:hover {

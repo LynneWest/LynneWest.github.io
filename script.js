@@ -11,16 +11,22 @@ $(window).load(function()
 		return $("body").width();		
 	}
 	
-	function getPicH() //return header image height, calculated by width, allows for proper calculations on load
+var picH;
+
+	function getPicH() //return header image height, calculated by width, includes margin width allows for proper calculations on load
 	{
+		picH = getbodyW();//-(2*$(".header-container").offset().left))
+
 		if(getbodyW() < 650)
 		{			 
-			return (1*getbodyW())/2;
+			picH = picH/2; //1:2
 		}
 		else
 		{			
-			return (1*getbodyW())/4;
-		}
+			picH = picH/4; //1:4
+		}		
+		
+		return picH;	
 	}
 	
 	function getSocialH() //return height of social link images
@@ -28,7 +34,7 @@ $(window).load(function()
 		return $(".social img").height();
 	}
 
-	function topPicSize() //set header image ratio as 12:5 or 6:5 based on body width
+	function topPicSize() //set header image and ratio based on body width
 	{
 		if(getbodyW() < 650)
 		{
@@ -37,7 +43,7 @@ $(window).load(function()
 		else
 		{
 			$(".top-pic").html("<img src = 'images/LynneCar.jpg'/>");			
-		} 				
+		} 						
 	}	
 
 	function namePosition() //set position of LynneFo in relation to header image height

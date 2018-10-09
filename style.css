@@ -168,16 +168,14 @@ header p {
 }
 
 .projects-container div {
-	text-align: center;		
+	text-align: center;	
+	font-family: var(--fontB);	
 }
 
 .projects-container h3 {
 	font-family: var(--fontB);
 	margin-bottom: 10px;
 	color: black;	
-}
-.projects-container h4 {
-	font-family: var(--fontB) !important;
 }
 
 .projects-container a:hover {

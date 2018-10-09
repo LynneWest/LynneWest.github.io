@@ -177,8 +177,7 @@ header p {
 	color: black;	
 }
 .projects-container h4 {
-	font-family: var(--fontB);
-	margin-bottom: 10px;
+	font-family: var(--fontB) !important;
 }
 
 .projects-container a:hover {

@@ -87,8 +87,7 @@ var picH;
 					});
 				});
 			});
-		}
-		console.log("hiddenP: "+hiddenP)		
+		}		
 	}
 
 	function sparks() //display sparks gif for 2 seconds

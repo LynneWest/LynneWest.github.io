@@ -15,7 +15,7 @@ var picH;
 
 	function getPicH() //return header image height, calculated by width, includes margin width allows for proper calculations on load
 	{
-		picH = getbodyW();//-(2*$(".header-container").offset().left))
+		picH = getbodyW();
 
 		if(getbodyW() < 650)
 		{			 
@@ -110,6 +110,11 @@ var picH;
 	$("#about-button").click(function()
 	{
 		sparks()
+	});
+
+	$("#projects-button").load(function()
+	{
+		$(".navbar").addClass("scroll-nav");
 	});
 
 	$(document).scroll(function() 

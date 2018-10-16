@@ -112,10 +112,10 @@ var picH;
 		sparks()
 	});
 
-	$("#projects-id a").load(function()
+	$("#projects-id").load(function()
 	{
 		$(".navbar").addClass("scroll-nav");
-		console.log("projects-id loaded")
+		console.log("projects-id loaded");
 	});
 
 	$(document).scroll(function() 

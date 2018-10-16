@@ -112,11 +112,11 @@ var picH;
 		sparks()
 	});
 
-	// $("#projects-id").onload(function()
-	// {
-	// 	$(".navbar").addClass("scroll-nav");
-	// 	console.log("projects-id loaded");
-	// });
+	$("href=projects-id").onload(function()
+	{
+		$(".navbar").addClass("scroll-nav");
+		console.log("projects-id loaded");
+	});
 
 	$(document).scroll(function() 
 	{

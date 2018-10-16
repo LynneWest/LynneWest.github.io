@@ -47,20 +47,20 @@
 
 .scroll-nav .navbar-brand {
 	opacity: 1;
-	-webkit-transition: opacity 2s;
-	-moz-transition: opacity 2s;
-	-ms-transition: opacity 2s;
-	-o-transition: opacity 2s;
-	transition: opacity 2s;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-ms-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
 }
 .scroll-nav {
 	border-bottom: none; 
 	background-color: var(--colorC);
-	-webkit-transition: background-color 2s;
-	-moz-transition: background-color 2s;
-	-ms-transition: background-color 2s;
-	-o-transition: background-color 2s;
-	transition: background-color 2s;	
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	transition: background-color 1s;	
 }
 
 .lynneFo {

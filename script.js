@@ -112,7 +112,7 @@ var picH;
 		sparks()
 	});
 
-	$("#projects-button").load(function()
+	$("#projects-id").load(function()
 	{
 		$(".navbar").addClass("scroll-nav");
 	});

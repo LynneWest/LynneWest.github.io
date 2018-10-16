@@ -112,7 +112,7 @@ var picH;
 		sparks()
 	});
 	
-	function navBack()
+	function navBack()//change navbar background color based on scroll bar position
 	{
 		hiddenP = $(document).scrollTop()+50;
 		var navH = $(".navbar").height();
@@ -127,18 +127,7 @@ var picH;
 		}
 	}
 	$(document).scroll(function() 
-	{
-		// hiddenP = $(document).scrollTop()+50;
-		// var navH = $(".navbar").height();
-		
-		// if(getPicH()-hiddenP <= navH) //darken navbar when it gets past header image
-		// {
-		// 	$(".navbar").addClass("scroll-nav");									
-		// }
-		// else //remove background color when navbar is above bottom of header image
-		// {
-		// 	$(".navbar").removeClass("scroll-nav");			
-		// }
+	{	
 		navBack();
 		doTheWave();
 		sparks();			
@@ -150,7 +139,7 @@ var picH;
 	$(".purple").css("top", purplePosition());
 	topPicSize();
 	navBack();
-	
+
 	$(window).resize(function() //position elements dynamically on resize
 	{
 		$(".lynneFo").css("top", namePosition());

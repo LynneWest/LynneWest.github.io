@@ -115,6 +115,7 @@ var picH;
 	$("#projects-id").load(function()
 	{
 		$(".navbar").addClass("scroll-nav");
+		console.log("projects-id loaded")
 	});
 
 	$(document).scroll(function() 

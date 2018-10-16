@@ -112,7 +112,7 @@ var picH;
 		sparks()
 	});
 
-	$("##projects-id").load(function()
+	$("#projects-button a").load(function()
 	{
 		$(".navbar").addClass("scroll-nav");
 		console.log("projects-id loaded")

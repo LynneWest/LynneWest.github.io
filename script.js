@@ -131,6 +131,7 @@ var picH;
 			$(".navbar").removeClass("scroll-nav");			
 		}
 	}
+	
 	$(document).scroll(function() 
 	{	
 		navBack();

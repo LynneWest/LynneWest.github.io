@@ -109,7 +109,12 @@ var picH;
 
 	$("#about-button").click(function()
 	{
-		sparks()
+		sparks();
+	});
+
+	$("#grind").mouseover(function()
+	{
+		sparks();
 	});
 	
 	function navBack()//change navbar background color based on scroll bar position

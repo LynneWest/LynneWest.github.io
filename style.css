@@ -90,10 +90,6 @@ header p {
 	font-size: 30px;
 }
 
-/* .degree {
-	font-size: 20px;
-} */
-
 .logo {
 	position: relative;
 }
@@ -180,6 +176,10 @@ header p {
 
 .projects-container a:hover {
 	text-decoration: none;
+}
+
+.projects-container h3:hover {
+	font-weight: bold;
 }
 
 .project-img {

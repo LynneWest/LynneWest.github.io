@@ -107,12 +107,12 @@ var picH;
 		}		
 	}
 
-	$("#about-button").click(function()
+	$("#about-button").click(function()//show gif when about-button is clicked
 	{
 		sparks();
 	});
 
-	$("#grind").mouseover(function()
+	$("#grind").mouseover(function()//show gif with mouse over image
 	{
 		sparks();
 	});

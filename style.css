@@ -7,10 +7,6 @@
 	--colorD: #e7e5e6;  /* background-color: var(--colorD); */
 }
 
-/* * {
-	border: 10px solid black;
-} */
-
 .top-pic {
 	padding: 0 !important;	
 }
@@ -174,9 +170,17 @@ header p {
 	color: black;	
 }
 
-.projects-container a:hover {
+.projects-container a:hover, .projects-container a:focus {
 	text-decoration: none;
 }
+
+.projects-container p a {
+	font-weight: bold;
+	color: black;	
+}
+.projects-container p a:hover {
+	text-decoration: underline;
+} 
 
 .projects-container h3:hover {
 	font-weight: bold;

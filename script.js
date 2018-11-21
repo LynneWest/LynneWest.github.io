@@ -11,8 +11,7 @@ $(window).load(function()
 		return $("body").width();		
 	}
 	
-var picH;
-
+	var picH;
 	function getPicH() //return header image height, calculated by width, includes margin width allows for proper calculations on load
 	{
 		picH = getbodyW();
@@ -68,6 +67,10 @@ var picH;
 	{
 		return getPicH()-nameH-pH-getSocialH()-1;
 	}
+	
+	$(function() {
+		$('body').removeClass('fade-out');
+	});
 
 	function doTheWave() //make social icons do the wave
 	{
@@ -144,7 +147,7 @@ var picH;
 	$(".logo").css("top", logoPosition());
 	$(".purple").css("top", purplePosition());
 	topPicSize();
-	navBack();
+	navBack();	
 
 	$(window).resize(function() //position elements dynamically on resize
 	{

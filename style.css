@@ -7,6 +7,19 @@
 	--colorD: #e7e5e6;  /* background-color: var(--colorD); */
 }
 
+html {
+	background-color: #fff;
+}
+
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
 .top-pic {
 	padding: 0 !important;	
 }

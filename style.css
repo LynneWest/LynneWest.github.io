@@ -1,5 +1,5 @@
 :root {
-	--fontA: 'Sarina', cursive; /* font-family: var(--fontA); */
+	--fontA: 'Sarina', arial; /* font-family: var(--fontA); */
 	--fontB: 'spinnaker', arial; /* font-family: var(--fontB); */
 	--colorA: rgb(232,222,212); /* background-color: var(--colorA); #f6f1e9 */
 	--colorB: rgb(110,114,117);  /* background-color: var(--colorB); */
